@@ -1,29 +1,24 @@
 name: Question
 description: Ask a question about any of ZVAR's software and data products.
-parameters:
-  - name: software
-    description: |
-      The software or data product you are asking about.
-      Please select the one that best fits your question.
-    type: dropdown
-    required: true
-    options:
-      - zvartools
-      - Image difference forced photometry
-      - fpw (python package)
-      - fpw (GPU accelerated production pipeline)
-      - Other (please specify)
-  - name: question
-    description: |
-      The question you want to ask about ZVAR's software and data products.
-      Please be as specific as possible to get the best answer.
-    type: string
-    required: true
-    default: "What is ZVAR's software used for?"
-  - name: context
-    description: |
-      Additional context or details that might help in answering your question.
-      This could include specific software names, data products, or use cases.
-    type: string
-    required: false
-    default: "I am interested in ZVAR's data analysis tools."
+body:
+    - type: dropdown
+      id: software
+      attributes:
+        label: Software
+        description: Select the software this question is related to.
+        options:
+          - zvartools
+          - Image difference forced photometry
+          - fpw (python package)
+          - fpw (GPU accelerated production pipeline)
+          - Other (please specify)
+    - type: textarea
+      id: question
+      attributes:
+        label: Question
+        description: Please provide a clear and concise description of your question.
+    - type: textarea
+      id: additional-context
+      attributes:
+        label: Additional context
+        description: Add any other context or screenshots about the question here.  

@@ -5,38 +5,38 @@ labels: enhancement
 assignees: ""
 body:
     - type: dropdown
-        id: software
-        attributes:
+      id: software
+      attributes:
         label: Software
         description: Select the software this feature request is related to.
         options:
-            - zvartools
-            - Image difference forced photometry
-            - fpw (python package)
-            - fpw (GPU accelerated production pipeline)
-            - Other (please specify)
+          - zvartools
+          - Image difference forced photometry
+          - fpw (python package)
+          - fpw (GPU accelerated production pipeline)
+          - Other (please specify)
     - type: textarea
-        id: feature-summary
-        attributes:
+      id: feature-summary
+      attributes:
         label: Feature Summary
         description: Please give a clear, concise description of the proposed feature. If you consider the feature a high priority, please provide a motivation for that.
     - type: textarea
-        id: usage-behavior
-        attributes:
+      id: usage-behavior
+      attributes:
         label: Usage / behavior
         description: Please describe how this feature should function from a user perspective.
     - type: textarea
-        id: alternative-solutions
-        attributes:
+      id: alternative-solutions
+      attributes:
         label: Alternative Solutions
         description: Are there any alternatives to the proposed feature that we should consider implementing?
     - type: textarea
-        id: implementation-details
-        attributes:
+      id: implementation-details
+      attributes:
         label: Implementation details
         description: If you have any insight on how this feature can be implemented, please provide that information here.
     - type: textarea
-        id: additional-context
-        attributes:
+      id: additional-context
+      attributes:
         label: Additional context
         description: Add any other context or screenshots about the feature request here.
