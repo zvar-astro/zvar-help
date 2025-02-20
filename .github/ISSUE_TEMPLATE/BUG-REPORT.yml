@@ -4,10 +4,11 @@ title: "[Bug] "
 labels: bug
 assignees: []
 body:
-    - type: checkbox
+    - type: dropdown
       id: software
       attributes:
-        label: Software where the bug occurs
+        label: Software
+        description: Select the software this feature request is related to.
         options:
           - zvartools
           - Image difference forced photometry
