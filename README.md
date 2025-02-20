@@ -28,3 +28,10 @@ The `Discussions` tab is meant to be used as a forum for longer-term discussion 
 
 ### Wiki:
 The `Wiki` tab is meant to be used as a permanent record of important information. We - the maintainers - will populate the Wiki with important information in a Q&A format, based on the content of the issues and discussions. It provides a permanent and structured record of important information. Please feel free to contribute to the Wiki!
+
+## Requesting Data Access
+If you are a member of the ZVAR collaboration and would like to request access to the data, please reach out by email to `tdulaz@caltech.edu`, with the subject line `ZVAR Data Access Request - <your name> (<institution>)`. In the body of the email, please include:
+- Your role in the ZVAR collaboration (e.g. student, postdoc, faculty, etc.)
+- A brief description of how you plan to use the data (e.g. retrieving objects by PanSTARRS ID, bulk cone searches, etc.)
+- If it's not just for you, the list of your collaborators (name, email, institution, role) that will also need access to the data
+- Any other relevant information
