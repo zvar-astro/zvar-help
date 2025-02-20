@@ -1,5 +1,8 @@
 name: Question
 description: Ask a question about any of ZVAR's software and data products.
+title: "[Question] "
+labels: question
+assignees: []
 body:
     - type: dropdown
       id: software

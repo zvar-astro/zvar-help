@@ -2,7 +2,7 @@ name: Feature request
 description: Suggest an idea for any of ZVAR's software solutions
 title: "[New Feature] "
 labels: enhancement
-assignees: ""
+assignees: []
 body:
     - type: dropdown
       id: software
