@@ -1,0 +1,27 @@
+name: Help wanted
+description: Request help using any of ZVAR's software and data products.
+title: "[Help Wanted] "
+labels: help wanted
+assignees: []
+body:
+    - type: dropdown
+      id: software
+      attributes:
+        label: Software
+        description: Select the software this help request is related to.
+        options:
+          - zvartools
+          - Image difference forced photometry
+          - fpw (python package)
+          - fpw (GPU accelerated production pipeline)
+          - Other (please specify)
+    - type: textarea
+      id: help-request
+      attributes:
+        label: Help Request
+        description: Please provide a clear and concise description of the help you need.
+    - type: textarea
+      id: additional-context
+      attributes:
+        label: Additional context
+        description: Add any other context or screenshots about the help request here.
