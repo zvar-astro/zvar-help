@@ -1,0 +1,41 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug] "
+labels: bug
+assignees: ""
+body:
+    - type: checkbox
+        id: software
+        attributes:
+        label: Software where the bug occurs
+        options:
+            - zvartools
+            - Image difference forced photometry
+            - fpw (python package)
+            - fpw (GPU accelerated production pipeline)
+            - Other (please specify)
+    - type: textarea
+        id: description
+        attributes:
+        label: Describe the bug
+        description: A clear and concise description of what the bug is.
+    - type: textarea
+        id: reproduce
+        attributes:
+        label: To Reproduce
+        description: Steps to reproduce the behavior, you can provide a minimal example (with code) if possible.
+    - type: textarea
+        id: expected-behavior
+        attributes:
+        label: Expected behavior
+        description: A clear and concise description of what you expected to happen.
+    - type: textarea
+        id: screenshots
+        attributes:
+        label: Screenshots
+        description: If applicable, add screenshots to help explain your problem.
+    - type: textarea
+        id: additional-context
+        attributes:
+        label: Additional context
+        description: Add any other context about the problem here.
