@@ -1,0 +1,21 @@
+name: Discussion
+description: A general discussion about any of ZVAR's software and data products.
+title: "[Discussion] "
+labels: discussion
+assignees: []
+body:
+    - type: textarea
+      id: topic
+      attributes:
+        label: Discussion topic
+        description: Please provide a clear and concise description of the discussion topic.
+    - type: textarea
+      id: content
+      attributes:
+        label: Content
+        description: Please provide the content of the discussion. This can include questions, ideas, or any other relevant information.
+    - type: textarea
+      id: additional-context
+      attributes:
+        label: Additional context
+        description: Add any other context or screenshots about the discussion here.
