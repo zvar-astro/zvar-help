@@ -1,14 +1,14 @@
-name: Discussion
-description: A general discussion about any of ZVAR's software and data products.
-title: "[Discussion] "
-labels: discussion
+name: Pending ZVAR Issue
+description: A potential issue with the ZVAR data products or tools.
+title: "[Pending ZVAR Issue] "
+labels: Pending ZVAR Issue
 assignees: []
 body:
     - type: textarea
       id: topic
       attributes:
-        label: Discussion topic
-        description: Please provide a clear and concise description of the discussion topic.
+        label: Issue description
+        description: Please provide a clear and concise description of the potential issue.
     - type: textarea
       id: content
       attributes:
